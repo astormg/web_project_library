@@ -350,6 +350,7 @@ p {
   margin: 100px 0 0;
   display: flex;
   justify-content: center;
+  column-gap: 40px;
 }
 
 .step {
@@ -447,6 +448,7 @@ p {
 .footer__column_content_hours {
   display: flex;
   flex-direction: column;
+  margin-left: 0;
 }
 
 .footer__column_content_social {
@@ -483,12 +485,15 @@ p {
 .footer__column-link {
   color: white;
   text-decoration: none;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
   /*height: 16px;*/
 }
 
-.footer__column-link:hover {
+/*.footer__column-link:hover {
   color: #c1c1c1;
-}
+}*/
 
 .footer__social-icon {
   width: 16px;
